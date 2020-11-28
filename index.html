@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <title>Challenge to Conquer</title>
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="nav-spaced">
+        <a id="logo" href="index.html"><img src="img/logo.png"></a>
+        <a href="index.html" class="no-underline" style="margin-left: 5px;">CHALLENGE TO CONQUER</a>
+      </div>
+      <button class="navbar-toggler no-outline" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <svg width="27px" height="14px" viewBox="0 0 27 14" version="1.1">
+          <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+            <polygon id="Arrow" fill-rule="nonzero" points="13.4999996 13.9214282 0.6 1.17499997 1.82857139 0.1 13.4999996 11.7714282 25.1714278 0.1 26.3999992 1.17499997"></polygon>
+          </g>
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse nav-spaced" id="navbarNavAltMarkup">
+        <div class="navbar-nav left">
+          <a class="nav-item nav-link active" href="#"><strong>HOME <span class="sr-only">(current)</span></strong></a>
+          <a class="nav-item nav-link" href="/about">ABOUT</a>
+          <a class="nav-item nav-link" href="/projects">PROJECTS</a>
+        </div>
+        <div class="navbar-nav right">
+          <a class="nav-item nav-link" href="/donate">DONATE</a>
+          <a class="nav-item nav-link" href="/contact">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+
+    <div id="lead" class="dimmedimg"><h1 class="dimmed-msg">We have a <font style="color: rgb(61,146,215);">Challenge </font> to <font style="color: rgb(146,191,69);">Conquer</font></h1></div>
+    
+    <div id="follow" class="cont">
+      <div class="cont-cust1">
+        <p style="margin-bottom:0">
+          We fund qualified initiatives and organizations providing rehabilitative services to challenged children in India.
+          With your generous donations, we can change the lives of thousands of challenged individuals.
+        </p>
+      </div>
+    </div>
+
+    <div class="swiper-background cont" id="swiper">
+      <h2 class = "bc"><center>Who you can help</center></h2>
+      <div class="swiper-container" id="slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/img/slideshow/01.jpg" alt="First slide">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/02.jpg" alt="Second slide">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/03.jpg" alt="Third slide">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/04.jpg" alt="Fourth slide">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/05.jpg" alt="Fifth slide">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slideshow/06.jpg" alt="Sixth slide">
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+       <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 500,
+        slidesPerView: 1,
+        paginationClickable: true,
+        centeredSlides: true,
+        autoplay: 10000,
+        speed: 750,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+
+    <div class="cont">
+        <div id="donations">
+          <h2 class = "gc">How your donations change lives</h2>
+          <!--<div class="tabs">
+            <div id="1-t"class="sel"><h4>Accomodations</h4></div>
+            <div id="2-t" class="u-sel"><h4>Rehabilitation</h4></div>
+            <div id="3-t" class="u-sel"><h4>Meals</h4></div>
+            <div id="4-t" class="u-sel"><h4>School Supplies</h4></div>
+            <div id="5-t" class="u-sel"><h4>Medical Care/Supplies</h4></div>
+            <div id="6-t" class="u-sel"><h4>Equipment</h4></div>
+          </div>-->
+          <div class="tabwindow forward">
+            <div id="1-tw" class="row ">
+              <div class="col tabtxt">
+                <h2 class = "don-h2 tab-head">Accomodations</h2>
+                <p>"Put in text on accomodations"</p>
+              </div>
+              <div class="col tabimg">
+                <img src="img/accomodations.JPG">
+              </div>
+            </div>
+            <div id="2-tw" class="row-cust ">
+              <div class="col tabimg">
+                  <img src="img/rehabilitation.JPG">
+              </div>
+              <div class="col tabtxt">
+                  <h2 class = "don-h2 tab-head">Rehabilitation</h2>
+                <p>"Put in text on rehabilitation"</p>
+              </div>
+            </div>
+            <div id="3-tw" class="row-cust ">
+              <div class="col tabtxt">
+                  <h2 class = "don-h2 tab-head">Meals</h2>
+                <p>"Put in text on meals"</p>
+              </div>
+              <div class="col tabimg sel-w">
+                <img src="img/meal.JPG">
+              </div>
+            </div>
+            <div id="4-tw" class="row-cust ">
+              <div class="col tabimg">
+                  <img src="img/schoolsupplies.JPG">
+              </div>
+              <div class="col tabtxt">
+                  <h2 class = "don-h2 tab-head">School Supplies</h2>
+                <p>"Put in text on school supplies"</p>
+              </div>
+            </div>
+            <div id="5-tw" class="row-cust ">
+              <div class="col tabtxt">
+                  <h2 class = "don-h2 tab-head">Medical Care</h2>
+                <p>"Put in text on medical care/supplies"</p>
+              </div>
+              <div class="col tabimg">
+                <img src="img/doctor-checkup.JPG">
+              </div>
+            </div>
+            <div id="6-tw" class="row-cust ">
+              <div class="col tabimg">
+                <img src="img/wheelchairs.JPG">
+              </div>
+              <div class="col tabtxt">
+                  <h2 class = "don-h2 tab-head">Equipment</h2>
+                  <p>"Put in text on equipment"</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tabwindow reverse">
+            <div id="1-tw" class="row ">
+              <h2 class = "don-h2 tab-head">Accomodations</h2>
+              <div class="col tabimg">
+                <img src="img/accomodations.JPG">
+              </div>
+              <div class="col tabtxt">
+                <p>"Put in text on accomodations"</p>
+              </div>
+            </div>
+            <div id="2-tw" class="row-cust ">
+              <h2 class = "don-h2 tab-head">Rehabilitation</h2>
+              <div class="col tabimg">
+                  <img src="img/rehabilitation.JPG">
+              </div>
+              <div class="col tabtxt">
+                <p>"Put in text on rehabilitation"</p>
+              </div>
+            </div>
+            <div id="3-tw" class="row-cust ">
+              <h2 class = "don-h2 tab-head">Meals</h2>
+              <div class="col tabimg sel-w">
+                <img src="img/meal.JPG">
+              </div>
+              <div class="col tabtxt">
+                <p>"Put in text on meals"</p>
+              </div>
+            </div>
+            <div id="4-tw" class="row-cust ">
+              <h2 class = "don-h2 tab-head">School Supplies</h2>
+              <div class="col tabimg">
+                  <img src="img/schoolsupplies.JPG">
+              </div>
+              <div class="col tabtxt">
+                <p>"Put in text on school supplies"</p>
+              </div>
+            </div>
+            <div id="5-tw" class="row-cust ">
+              <h2 class = "don-h2 tab-head">Medical Care</h2>
+              <div class="col tabimg">
+                <img src="img/doctor-checkup.JPG">
+              </div>
+              <div class="col tabtxt">
+                <p>"Put in text on medical care/supplies"</p>
+              </div>
+            </div>
+            <div id="6-tw" class="row-cust ">
+              <h2 class = "don-h2 tab-head">Equipment</h2>
+              <div class="col tabimg">
+                <img src="img/wheelchairs.JPG">
+              </div>
+              <div class="col tabtxt">
+                  <p>"Put in text on equipment"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
+      <div>
+        <center><img id="graphic" src="img/graphic.png"></center>
+      </div>
+    -->
+
+    <footer>
+      <div class="row-cust">
+        <div class="col-cust">
+          <p class = "fleft" style="font-size: 15px; color: white;">Your contributions are tax-deductible to the fullest extent of the law</p>
+        </div>
+        <div class="col-cust">
+            <p class = "fcenter" style="font-size: 20px; color: white;">CHALLENGE TO CONQUER.ORG</p>
+        </div>
+        <div class="col-cust">
+          <p class = "fright" style="font-size: 15px; color: white;">Organized for Charitable purposes under United States IRS Section 501(c)(3)</p>
+        </div>
+      </div>
+    </footer>
+      
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/header.js"></script>
+  </body>
+</html>
+

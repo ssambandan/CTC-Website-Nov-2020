@@ -1,0 +1,540 @@
+
+@font-face {
+    src:url("../fonts/Montserrat/Montserrat-Bold.ttf");
+    font-family: "Montserrat"; font-weight: 700;
+}
+
+@font-face {
+  src:url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+  font-family: "Montserrat"; font-weight: 600;
+}
+
+@font-face {
+  src:url("../fonts/Montserrat/Montserrat-Medium.ttf");
+  font-family: "Montserrat"; font-weight: 500;
+}
+
+@font-face {
+  src:url("../fonts/Montserrat/Montserrat-Regular.ttf");
+  font-family: "Montserrat"; font-weight: 400;
+}
+
+@font-face {
+  src:url("../fonts/Montserrat/Montserrat-Light.ttf");
+  font-family: "Montserrat"; font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+
+@media (min-width: 900px) {
+    .row-cust { width: 100%; display: table; table-layout: fixed; }
+    .col-cust { display: table-cell; }
+    .row { width: 100%; display: table; table-layout: fixed; }
+    .col { display: table-cell; }
+}
+
+@media (max-width: 1300px) {
+    .tabs div h4{
+        font-size: 16px;
+    }
+}
+
+.fleft{
+    float: left;
+    margin-bottom: 0;
+}
+
+.fcenter{
+    margin-bottom: 0;
+}
+
+.fright{
+    float: right;
+    margin-bottom: 0;
+}
+
+footer div div p{
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .tabs div h4{
+        font-size: 12px;
+    }
+    .dimmed-msg{
+        font-size: 3rem;
+    }
+    footer div div p{
+        width: 100%;
+        float: none;
+    }
+    .fleft{
+        margin: 10px;
+    }
+    .fright{
+        margin: 10px;
+    }
+    footer{
+        height: 130px;
+    }
+    .don-h2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+html {
+    background: #fff;
+    color: #222;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-familY: 'Montserrat';
+    font-weight: 500;
+}
+
+#lead{
+    margin-top: 60px;
+    background: url("/img/santosh.png") no-repeat top center fixed;
+    background-size: cover;
+    font-size: 50px;
+    height:75vh;
+    width: 100%;
+}
+
+
+.nav-spaced a{
+    color:#17202A;
+}
+
+.dimmedimg{
+    margin: 0;
+    padding: 25vh 0px 25vh 0px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+
+.dimmedimg:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.dimmed-msg{
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+
+
+#int-d{
+    margin-bottom: 0;
+}
+
+#follow{
+    text-align: center;
+    font-size: 50px;
+    padding: 4% 3% 4% 3%;
+    background-color: white;
+    color: #797979;
+}
+
+
+
+#follow p{
+    font-weight: 300;
+}
+
+.sel:hover{
+    background-color: rgb(96, 255, 207);
+    -webkit-transition: .25s;
+    cursor: pointer;
+}
+
+.u-sel:hover{
+    background-color: rgb(96, 255, 207);
+    color: black;
+    -webkit-transition: .25s;
+    cursor: pointer;
+}
+
+.tabs{
+    width: 100%; display: table; table-layout: fixed; 
+    font-weight: 300!important;
+}
+.tabs div{ display: table-cell;  padding: 1%; vertical-align: middle;}
+
+.tabimg{
+    padding: 2.5%;
+}
+
+.tabtxt{
+    padding: 5%;
+}
+
+.tabtxt p{
+    vertical-align: middle;
+}
+
+.left{
+    height: 100%;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    text-align: left;
+    color: #797979;
+    letter-spacing: 0.5px;
+}
+
+.cont-cust1{
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 1;
+}
+
+.cont-cust2{
+    padding-left: 60%;
+    padding-right: 5%;
+    z-index: 1;
+}
+
+.sel{
+    background-color: #8effa7;
+    -webkit-transition: .25s;
+
+}
+
+.u-sel{
+    background-color: white;
+    -webkit-transition: .25s;
+
+    color: #2C3E50;
+}
+/* 
+#donations{
+    background: url("../img/class.jpg") no-repeat top center;
+    background-size: cover;
+    font-size: 50px;
+    height:550px;
+    width: 100vw;
+    padding: 65px 0 65px 0;
+} */
+
+.cont{
+    padding: 3.5vh 2.5vw 3.5vh 2.5vw;
+    text-align: center;
+}
+
+#donations{
+    text-align: center;
+}
+
+
+nav{
+    padding: 0 10vw;
+    position: absolute;
+    font-family: 'Montserrat';
+    color:#2C3E50;
+    background-color: white;
+    -webkit-transition: 0.5s;
+}
+
+.pheader{
+    text-align: left;
+}
+
+#graphic{
+    width: 100vw;
+}
+
+.no-underline:hover{
+    text-decoration: none;
+}
+
+.right{
+    padding-right: 10vw;
+}
+
+.inactive-tw{
+    display:none;
+    -webkit-transition: 1s;
+}
+
+.active-tw{
+    -webkit-transition: 1s;
+    background-color: #8effa7;
+}
+
+svg{
+    fill: black;
+}
+
+footer{
+    width: 100%;
+    background-color: #17202A;
+    padding: 2vw;
+    margin-bottom: 0!important;
+}
+.navbar-toggler{
+    border: none!important;
+}
+
+.no-outline:focus {outline:0;}
+
+.nav-spaced {
+    padding: 5px 10px 5px 10px;
+}
+
+.nav-item{
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+
+.nav-item.nav-link{
+    padding-top:5px;
+    color: #17202A!important;
+}
+
+@media screen and (max-width: 991px) {
+    .right{
+        position: relative;
+        right: auto;
+    }
+    
+}
+
+@media screen and (max-width: 1150px) {
+    nav {
+        padding: 0 5vw;
+    }
+    .right{
+        padding-right: 5vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .right{
+        position: absolute;
+        right: 0;
+    }
+}
+footer div div{
+    vertical-align: middle;
+}
+
+footer div div p{
+    line-height: 1;
+}
+
+.addinf-text{
+    font-size: 20px;
+}
+
+
+#logo img{
+    height: 50px; width: 50px; margin: 0px;
+}
+
+#lead h1{
+    font-family: "Montserrat"!important;
+    font-weight: 400!important;
+}
+
+.swiper-slide img{
+    height: 100%;
+}
+
+.vcenter{
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.addinf-div{
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+}
+
+#swiper{
+    height: 90vh;
+    background-image: url("/img/mithra.JPG");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+}
+
+.swiper-background{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+
+.swiper-container{
+    margin: 2vh 20vh 2vh 20vh;
+}
+
+.header h1{
+    margin-top: 2vh;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.swiper-background:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#swiper h2{
+    z-index: 1;
+    /* color: #a2d7ff; */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.don-h2{
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+
+#slider{
+    height: 90%;
+    z-index: 1;
+}
+
+
+.tab-head{
+    color:rgb(61,146,215)!important;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+#addinf{
+    padding-top: 5vh;
+}
+#projinf{
+    padding-top: 1vh;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.bc{
+    color: rgb(61,146,215);
+}
+
+.gc{
+    color: rgb(146,191,69);
+}
+
+.btn{
+    border: 2px solid rgb(203,222,253);
+}
+
+
+@media (max-width: 900px) {
+    .forward{
+        display: none;
+    }
+    .reverse{
+        display: block;
+    }
+    .tabimg img{
+        width: 80vw;
+    }
+    .reverse{
+        margin-top: 5%;
+    }
+    .tab-head{
+        margin-top: 2%;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 700px) {
+    #swiper h2{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 700px){
+    p {
+        font-size: 18px;
+    }
+    .header h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .addinf-text{
+        font-size: 18px;
+    }
+    .tab-head{
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .forward{
+        display: block;
+    }
+    .reverse{
+        display: none;
+    }
+    .tabimg img{
+        width: 42.75vw;
+    }
+}
+
+.header{
+    padding-top: 7vh;
+    padding-bottom: 2.8vh;
+}
+
+.p-spaced{
+    margin: 40px 0px 40px 0px;
+}
+
